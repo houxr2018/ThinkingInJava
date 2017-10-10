@@ -13,8 +13,8 @@ public class PrintDataOnly {
 
         DataOnly data = new DataOnly(47, 1.1, false);
 
-        System.out.println(data.getI());
-        System.out.println(data.getD());
-        System.out.println(data.isBool());
+        System.out.println("int = " + data.getI());
+        System.out.println("double = " + data.getD());
+        System.out.println("boolern = " + data.isBool());
     }
 }
