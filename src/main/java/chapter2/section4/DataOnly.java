@@ -11,7 +11,30 @@ public class DataOnly {
     private double d;
     private boolean bool;
 
+    public DataOnly() {
+    }
+
+    public DataOnly(int i, double d, boolean bool) {
+
+        this.i = i;
+        this.d = d;
+        this.bool = bool;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public double getD() {
+        return d;
+    }
+
+    public boolean isBool() {
+        return bool;
+    }
+
     public static void main(String[] args) {
+
         DataOnly data = new DataOnly();
         data.i = 47;
         data.d = 1.1;

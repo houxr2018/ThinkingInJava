@@ -8,6 +8,7 @@ package chapter2.section3;
 public class ATypeName {
 
     public static void main(String[] args) {
+
         ATypeName aTypeName = new ATypeName();
     }
 }

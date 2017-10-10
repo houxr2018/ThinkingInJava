@@ -1,0 +1,20 @@
+package chapter2.section5;
+
+import chapter2.section4.DataOnly;
+
+/**
+ * @Description 把DataOnly的值打印出来
+ * @CreateUser 王熙楠 wangxn@tiansu-china.com
+ * @CreateDate 2017/10/10 10:17
+ */
+public class PrintDataOnly {
+
+    public static void main(String[] args) {
+
+        DataOnly data = new DataOnly(47, 1.1, false);
+
+        System.out.println(data.getI());
+        System.out.println(data.getD());
+        System.out.println(data.isBool());
+    }
+}
