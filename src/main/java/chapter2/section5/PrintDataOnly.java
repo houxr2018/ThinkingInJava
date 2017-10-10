@@ -1,6 +1,6 @@
 package chapter2.section5;
 
-import chapter2.section4.DataOnly;
+import chapter2.section5.DataOnly;
 
 /**
  * @Description 把DataOnly的值打印出来
