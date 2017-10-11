@@ -1,7 +1,7 @@
 package chapter3.section5;
 
 /**
- * Description:
+ * Description: 新建Dogs对象
  * CreateTime: 2017/10/11 18:32
  *
  * @author 王熙楠 wangxn@tiansu-china.com
