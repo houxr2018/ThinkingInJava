@@ -1,9 +1,10 @@
 package chapter2.section4;
 
 /**
- * @Description DataOnly完整代码
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 10:10
+ * Description: DataOnly完整代码
+ * CreateTime: 2017/10/10 10:10
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class DataOnly {
 

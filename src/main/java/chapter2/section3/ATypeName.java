@@ -1,9 +1,10 @@
 package chapter2.section3;
 
 /**
- * @Description ATypeName完整代码
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 9:55
+ * Description: ATypeName完整代码
+ * CreateTime: 2017/10/10 9:55
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class ATypeName {
 

@@ -1,11 +1,11 @@
 package chapter2.section7;
 
 /**
- * @Description 测试静态方法的调用
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 10:35
+ * Description: 测试静态方法的调用
+ * CreateTime: 2017/10/10 10:35
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
-
 class StaticTest {
 
     static int i = 47;

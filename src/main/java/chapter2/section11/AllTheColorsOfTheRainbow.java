@@ -1,9 +1,10 @@
 package chapter2.section11;
 
 /**
- * @Description 完成AllTheColorsOfTheRainbow
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 14:47
+ * Description: 完成AllTheColorsOfTheRainbow
+ * CreateTime: 2017/10/10 14:47
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class AllTheColorsOfTheRainbow {
 

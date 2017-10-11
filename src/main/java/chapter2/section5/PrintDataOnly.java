@@ -1,11 +1,10 @@
 package chapter2.section5;
 
-import chapter2.section5.DataOnly;
-
 /**
- * @Description 把DataOnly的值打印出来
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 10:17
+ * Description: 把DataOnly的值打印出来
+ * CreateTime: 2017/10/10 10:17
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class PrintDataOnly {
 

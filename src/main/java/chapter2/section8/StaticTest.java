@@ -1,9 +1,10 @@
 package chapter2.section8;
 
 /**
- * @Description 展示一个类的多个对象共用同一个static作用域
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 10:55
+ * Description: 展示一个类的多个对象共用同一个static作用域
+ * CreateTime: 2017/10/10 10:55
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class StaticTest {
 

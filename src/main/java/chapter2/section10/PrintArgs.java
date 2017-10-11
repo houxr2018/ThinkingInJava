@@ -1,9 +1,10 @@
 package chapter2.section10;
 
 /**
- * @Description
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 14:24
+ * Description: 打印运行java时命令行输入的字符串
+ * CreateTime: 2017/10/10 14:24
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class PrintArgs {
 

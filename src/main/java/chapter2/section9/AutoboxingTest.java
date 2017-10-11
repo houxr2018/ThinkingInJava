@@ -1,9 +1,10 @@
 package chapter2.section9;
 
 /**
- * @Description 展示自动包装功能
- * @CreateUser 王熙楠 wangxn@tiansu-china.com
- * @CreateDate 2017/10/10 13:43
+ * Description: 展示自动包装功能
+ * CreateTime: 2017/10/10 13:43
+ *
+ * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class AutoboxingTest {
 
