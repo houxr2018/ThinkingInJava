@@ -8,5 +8,17 @@
     <artifactId>ThinkingInJava</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <!-- jar版本设置 -->
+        <mindview.version>1.0.0</mindview.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.mindview.util</groupId>
+            <artifactId>util</artifactId>
+            <version>${mindview.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
