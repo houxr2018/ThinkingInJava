@@ -1,7 +1,7 @@
 package chapter3.section2;
 
 /**
- * Description:
+ * Description: 操作对象时的别名现象
  * CreateTime: 2017/10/11 16:52
  *
  * @author 王熙楠 wangxn@tiansu-china.com
