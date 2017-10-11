@@ -11,6 +11,7 @@ import static net.mindview.util.Print.*;
  */
 public class PrintShort {
     public static void main(String[] args) {
+
         print("short print");
         System.out.println("normal print");
     }
