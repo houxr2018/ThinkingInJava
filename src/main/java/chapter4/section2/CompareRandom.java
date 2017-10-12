@@ -14,7 +14,12 @@ public class CompareRandom {
     private static List<Integer> previousEqualToLatter = new ArrayList<>();
     private static List<Integer> previousGreaterThanLatter = new ArrayList<>();
 
-    private static void compare(List<Integer> randoms) {
+    public static void compare(List<Integer> randoms) {
+
+        System.out.println("生成的随机数有：");
+        for (int i = 0; i < 25; i++) {
+            System.out.print(randoms.get(i) + " ");
+        }
 
         for (int i = 1; i < randoms.size(); i++) {
             if (randoms.get(i-1) < randoms.get(i)) {
@@ -26,23 +31,7 @@ public class CompareRandom {
             }
         }
         previousEqualToLatter.add(randoms.get(24));
-    }
 
-    private static int random() {
-
-        Random random = new Random();
-        return random.nextInt(1000);
-    }
-
-    public static void main(String[] args) {
-
-        System.out.println("生成的随机数有：");
-        List<Integer> randoms = new ArrayList<>();
-        for (int i = 0; i < 25; i++) {
-            randoms.add(random());
-            System.out.print(randoms.get(i) + " ");
-        }
-        compare(randoms);
         System.out.println("\n比后一个随机数小的有:");
         for (int i = 0; i < previousLessThanLatter.size(); i++) {
             System.out.print(previousLessThanLatter.get(i) + " ");
@@ -55,5 +44,20 @@ public class CompareRandom {
         for (int i = 0; i < previousGreaterThanLatter.size(); i++) {
             System.out.print(previousGreaterThanLatter.get(i) + " ");
         }
+    }
+
+    public static int random() {
+
+        Random random = new Random();
+        return random.nextInt(1000);
+    }
+
+    public static void main(String[] args) {
+
+        List<Integer> randoms = new ArrayList<>();
+        for (int i = 0; i < 25; i++) {
+            randoms.add(random());
+        }
+        compare(randoms);
     }
 }
