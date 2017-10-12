@@ -7,7 +7,7 @@ package chapter3.section11;
  * @author 王熙楠 wangxn@tiansu-china.com
  */
 public class SignedRightShift {
-························
+
     private static int binary = 0x80000000;
 
     public static void main(String[] args) {
