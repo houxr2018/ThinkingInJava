@@ -7,6 +7,7 @@ package chapter3.section6;
  * @author 王熙楠 wangxn@tiansu-china.com
  */
 class Dogs {
+
     public String name;
     public String says;
 
@@ -36,8 +37,8 @@ public class DogsComparison {
 
         DogsComparison dogsComparison = new DogsComparison();
         System.out.println("spot compare to spot2");
-        dogsComparison.compare(spot,spot2);
+        dogsComparison.compare(spot, spot2);
         System.out.println("spot compare to copy");
-        dogsComparison.compare(spot,copy);
+        dogsComparison.compare(spot, copy);
     }
 }

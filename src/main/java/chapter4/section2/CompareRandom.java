@@ -22,12 +22,12 @@ public class CompareRandom {
         }
 
         for (int i = 1; i < randoms.size(); i++) {
-            if (randoms.get(i-1) < randoms.get(i)) {
-                previousLessThanLatter.add(randoms.get(i-1));
-            } else if (randoms.get(i-1) < randoms.get(i)) {
-                previousEqualToLatter.add(randoms.get(i-1));
+            if (randoms.get(i - 1) < randoms.get(i)) {
+                previousLessThanLatter.add(randoms.get(i - 1));
+            } else if (randoms.get(i - 1) < randoms.get(i)) {
+                previousEqualToLatter.add(randoms.get(i - 1));
             } else {
-                previousGreaterThanLatter.add(randoms.get(i-1));
+                previousGreaterThanLatter.add(randoms.get(i - 1));
             }
         }
         previousEqualToLatter.add(randoms.get(24));

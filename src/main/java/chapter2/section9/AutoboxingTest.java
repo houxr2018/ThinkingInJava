@@ -8,49 +8,49 @@ package chapter2.section9;
  */
 public class AutoboxingTest {
 
-    private static byte byteTest(){
+    private static byte byteTest() {
 
         Byte b = 1;
         return b;
     }
 
-    private static short shortTest(){
+    private static short shortTest() {
 
         Short s = 10;
         return s;
     }
 
-    private static int intTest(){
+    private static int intTest() {
 
         Integer i = 100;
         return i;
     }
 
-    private static long longTest(){
+    private static long longTest() {
 
         Long l = 1000L;
         return l;
     }
 
-    private static float floatTest(){
+    private static float floatTest() {
 
         Float f = 10.0f;
         return f;
     }
 
-    private static double doubleTest(){
+    private static double doubleTest() {
 
         Double d = 100.0;
         return d;
     }
 
-    private static boolean booleanTest(){
+    private static boolean booleanTest() {
 
         Boolean bool = true;
         return bool;
     }
 
-    private static char charTest(){
+    private static char charTest() {
 
         Character c = '0';
         return c;

@@ -13,7 +13,7 @@ public class Velocity {
 
     private double getVelocity(double distance, double time) {
 
-        return distance/time;
+        return distance / time;
     }
 
     public static void main(String[] args) {

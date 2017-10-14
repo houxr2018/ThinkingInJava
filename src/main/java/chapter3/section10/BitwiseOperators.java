@@ -17,11 +17,11 @@ public class BitwiseOperators {
         System.out.println("i2 = " + Integer.toBinaryString(i2));
         System.out.println("~i1 = " + Integer.toBinaryString(~i1));
         System.out.println("~i2 = " + Integer.toBinaryString(~i2));
-        System.out.println("i1&i1 = " + Integer.toBinaryString(i1&i1));
-        System.out.println("i1&i2 = " + Integer.toBinaryString(i1&i2));
-        System.out.println("i1|i1 = " + Integer.toBinaryString(i1|i1));
-        System.out.println("i1|i2 = " + Integer.toBinaryString(i1|i2));
-        System.out.println("i1^i1 = " + Integer.toBinaryString(i1^i1));
-        System.out.println("i1^i2 = " + Integer.toBinaryString(i1^i2));
+        System.out.println("i1&i1 = " + Integer.toBinaryString(i1 & i1));
+        System.out.println("i1&i2 = " + Integer.toBinaryString(i1 & i2));
+        System.out.println("i1|i1 = " + Integer.toBinaryString(i1 | i1));
+        System.out.println("i1|i2 = " + Integer.toBinaryString(i1 | i2));
+        System.out.println("i1^i1 = " + Integer.toBinaryString(i1 ^ i1));
+        System.out.println("i1^i2 = " + Integer.toBinaryString(i1 ^ i2));
     }
 }
