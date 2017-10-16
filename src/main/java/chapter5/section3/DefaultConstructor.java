@@ -14,7 +14,7 @@ public class DefaultConstructor {
 
     public static void main(String[] args) {
 
-        DefaultConstructor defaultConstructor = new DefaultConstructor();
+        new DefaultConstructor();
     }
 
 }
