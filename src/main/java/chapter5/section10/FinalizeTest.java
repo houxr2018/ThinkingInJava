@@ -8,11 +8,18 @@ package chapter5.section10;
  */
 public class FinalizeTest {
 
+    private String bookName;
+
+    public FinalizeTest(String bookName) {
+        this.bookName = bookName;
+        System.out.println(bookName + "被创建");
+    }
+
     protected void finalize() {
-        System.out.println("finalize");
+        System.out.println(bookName + "被清理");
     }
 
     public static void main(String[] args) {
-        new FinalizeTest();
+        new FinalizeTest("book");
     }
 }
