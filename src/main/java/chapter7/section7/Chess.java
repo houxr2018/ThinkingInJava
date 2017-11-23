@@ -1,7 +1,7 @@
 package chapter7.section7;
 
 /**
- * Description:
+ * Description: 继承调用带参构造函数
  * CreateTime: 2017/11/23 16:12
  *
  * @author 王熙楠 wangxn@tiansu-china.com
