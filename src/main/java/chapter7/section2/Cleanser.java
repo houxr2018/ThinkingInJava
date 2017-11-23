@@ -6,7 +6,7 @@ package chapter7.section2;
  *
  * @author 王熙楠 wangxn@tiansu-china.com
  */
-class Cleanser {
+public class Cleanser {
 
     private String s = "Cleanser";
 
@@ -65,7 +65,7 @@ class Detergent extends Cleanser {
     }
 }
 
-public class ExtendDetergent extends Detergent {
+class ExtendDetergent extends Detergent {
 
     @Override
     public void scrub() {
