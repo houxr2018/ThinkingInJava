@@ -8,7 +8,7 @@ package chapter7.section1;
  */
 class First {
 
-    public First(String str) {
+    First(String str) {
         System.out.println(str);
     }
 }
@@ -17,16 +17,17 @@ class Second {
 
     private First first;
 
-    public Second() {
+    Second() {
 
         System.out.println("First未初始化");
     }
 
-    public void lazy() {
+    void lazy() {
 
         first = new First("first");
     }
 }
+
 public class LazyInitialization {
 
     public static void main(String[] args) {
