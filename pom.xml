@@ -11,13 +11,26 @@
     <properties>
         <!-- jar版本设置 -->
         <mindview.version>1.0.0</mindview.version>
+        <log4j.version>1.2.17</log4j.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>net.mindview.util</groupId>
+            <groupId>net.mindview</groupId>
             <artifactId>util</artifactId>
             <version>${mindview.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
